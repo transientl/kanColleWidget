@@ -108,9 +108,21 @@ var Constants = {/** constantアクセサ的なアレ **/
                 height : (1/32)
             },
             coords : [
-                {
+                {// kdock_id == 1
                     left : (0.49),
                     top : (0.225)
+                },
+                {// kdock_id == 2
+                    left : (0.49),
+                    top : (0.322)
+                },
+                {// kdock_id == 3
+                    left : (0.49),
+                    top : (0.419)
+                },
+                {// kdock_id == 4
+                    left : (0.49),
+                    top : (0.516)
                 }
             ]
         }
@@ -121,6 +133,7 @@ var Constants = {/** constantアクセサ的なアレ **/
         'O'  : '0',
         'I'  : '1',
         'i'  : '1',
+        'l'  : '1',
         'Z'  : '2',
         'S'  : '5',
         'q'  : '9'
